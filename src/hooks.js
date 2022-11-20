@@ -57,5 +57,5 @@ export const useGetLP = (path, term) => {
     };
   }, [url]);
 
-  return [state];
+  return state;
 };

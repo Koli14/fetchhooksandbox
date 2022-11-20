@@ -2,7 +2,7 @@ import React from 'react';
 import { useGetLP } from './hooks';
 
 export const UserDetail = ({ selectedUser }) => {
-  const [{ data, isLoading, isError }] = useGetLP(
+  const { data, isLoading, isError } = useGetLP(
     'search',
     selectedUser
   );
